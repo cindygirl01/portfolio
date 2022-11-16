@@ -1,0 +1,72 @@
+.home{
+   text-align: center;
+   margin: 50px;
+   letter-spacing: 1px;
+}
+.home h1{
+   font-size: 30px;
+   font-weight: 800;
+   text-decoration: solid;
+}
+.home h3{
+   margin-top: -30px;
+   margin-left: 20px;
+   font-size: 25px;
+   font-weight: 700;
+}
+.home p{
+   font-size: 20px;
+   font-weight: 600;
+}
+.styles{
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   background-image: url('./imgs/ijgirl.png');
+   background-color: pink;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: 85vmax;
+   color: skyblue;
+}
+.img{
+   margin-right: 100px;
+}
+.styles{
+   animation-name: example;
+   animation-duration: 4s;
+   animation-delay: -2s;
+   animation-iteration-count: infinite;
+}
+@keyframes example{
+  0% {background-color: rgb(217, 88, 157);}
+  25% {background-color: rgb(149, 132, 132);}
+  50% {background-color: rgb(67, 56, 56);}
+  100% {background-color: rgb(143, 88, 88);}
+  
+}
+@media  (max-width: 750px){
+   .home{
+      text-align: center;
+      margin-top: -50px;
+      display: block;
+      
+   }
+   
+   .styles{
+      display: block;
+      height: 55em;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-delay: -2s;
+      animation-iteration-count: infinite;
+   }
+   @keyframes example{
+     0% {background-color: rgb(217, 88, 157);}
+     25% {background-color: rgb(149, 132, 132);}
+     50% {background-color: rgb(67, 56, 56);}
+     100% {background-color: rgb(143, 88, 88);}
+     
+   }
+}

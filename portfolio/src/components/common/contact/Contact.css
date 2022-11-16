@@ -1,0 +1,127 @@
+.contact{
+   background-color: rgb(183, 206, 209);
+   margin-top: -50px;
+   padding-left: 80px;
+   color: blue;
+}
+.contact h1{
+   text-align: center;
+   padding-top: 50px;
+   font-size: 35px;
+   font-weight: 800;
+}
+.contact-me{
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   border: 0px;
+}
+#name{
+   font-size: 25px;
+   font-weight: 600;
+
+}
+.pre{
+   background-color: rgb(222, 229, 226);
+   width: 38%;
+   height: 380px;
+   padding: 40px;
+}
+.name{
+   margin-bottom: 15px;
+   padding: 10px 9em;
+   border:0px;
+   margin-left: 35px;
+   border-radius: 10px;
+
+}
+.nam{
+   margin-left: 30px;
+   padding: 10px 9em;
+   margin-bottom: 10px;
+   border: 0px;
+   border-radius: 10px;
+
+}
+.names{
+   padding: 5px 3em;
+   margin-top: 5px;
+   border: 0px;
+   border-radius: 10px;
+   margin-left: 35px;
+   
+}
+.cont{
+   margin-right: 200px;
+   line-height: 70px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+}
+.cont a{
+   list-style-type: none;
+   text-decoration: none;
+   font-size: 30px;
+   font-weight: 600;
+}
+.btn{
+   display: block;
+   margin: auto;
+   justify-content: center;
+   padding: 10px;
+   border-radius: 8px;
+   font-size: 15px;
+   font-weight: 600;
+   border: 1px solid blue;
+   background-color: blue;
+   color: white;
+}
+@media all and (max-width: 750px){
+   .contact-me{
+      display: block;
+      justify-content: space-between;
+      align-content: center;
+      border: 0px;
+   } 
+   .pre{
+      background-color: rgb(222, 229, 226);
+      width: 70%;
+      height: 380px;
+      padding: 40px;
+   }
+   .name{
+      margin-bottom: 15px;
+      padding: 10px 7em;
+      border:0px;
+      margin-left: 35px;
+      border-radius: 10px;
+   
+   }
+   .nam{
+      margin-left: 30px;
+      padding: 10px 7em;
+      margin-bottom: 10px;
+      border: 0px;
+      border-radius: 10px;
+   
+   }
+   .names{
+      padding: 5px 15px;
+      margin-top: 5px;
+      border: 0px;
+      border-radius: 10px;
+      margin-left: 35px;
+      
+   }
+   .cont{
+      padding-top: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+   }
+   
+   .cont a{
+      list-style-type: none;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 600;
+   }
+}
